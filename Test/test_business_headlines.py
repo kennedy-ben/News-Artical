@@ -55,14 +55,14 @@ class TestBusiness(unittest.TestCase):
         This test case tests if self.news_business_headlines.url is initialized
         properly.
         """
-        self.assertEqual(self.news_business_headlines.url, "https://www.google.io/img/Africa")
+        self.assertEqual(self.news_business_headlines.url, "https://beyondthegrid.africa/wp-content/uploads/hero-xs-power-africa-copy.jpg")
 
     def test_init_urlToImage(self):
         """
         This test case tests if self.news_business_headlines.urlToImage is initialized
         properly.
         """
-        self.assertEqual(self.news_business_headlines.urlToImage, "http://www.google.io/img/ugali")
+        self.assertEqual(self.news_business_headlines.urlToImage, "https://upload.wikimedia.org/wikipedia/commons/4/48/Ugali_%26_Sukuma_Wiki.jpg")
 
     def test_init_publishedAt(self):
         """
