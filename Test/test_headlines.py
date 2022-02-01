@@ -15,7 +15,7 @@ class TestHeadlines(unittest.TestCase):
         Set up method to create a news_headlines instance
         before each test cases.
         """        
-        self.news_headlines = Headlines("John F.L", "Deep African White Gold", "Ugali, African Prestige meal. Staple food in countries such as Kenya....", "https://www.google.io/img/Africa", "http://www.google.io/img/ugali", "2000-19-03")
+        self.news_headlines = Headlines("John F.L", "Deep African White Gold", "Ugali, African Prestige meal. Staple food in countries such as Kenya....", "https://beyondthegrid.africa/wp-content/uploads/hero-xs-power-africa-copy.jpg", "https://upload.wikimedia.org/wikipedia/commons/4/48/Ugali_%26_Sukuma_Wiki.jpg", "2000-19-03")
 
 
     def tearDown(self):
@@ -54,14 +54,14 @@ class TestHeadlines(unittest.TestCase):
         This test case tests if self.news_headlines.url is initialized
         properly.
         """
-        self.assertEqual(self.news_headlines.url, "https://www.google.io/img/Africa")
+        self.assertEqual(self.news_headlines.url, "https://beyondthegrid.africa/wp-content/uploads/hero-xs-power-africa-copy.jpg")
 
     def test_init_urlToImage(self):
         """
         This test case tests if self.news_headlines.urlToImage is initialized
         properly.
         """
-        self.assertEqual(self.news_headlines.urlToImage, "http://www.google.io/img/ugali")
+        self.assertEqual(self.news_headlines.urlToImage, "https://upload.wikimedia.org/wikipedia/commons/4/48/Ugali_%26_Sukuma_Wiki.jpg")
 
     def test_init_publishedAt(self):
         """
