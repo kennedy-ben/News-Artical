@@ -1,0 +1,15 @@
+
+  
+{% extends 'base.html' %}
+{% import 'ken.html' as ken %}
+
+{% block content %}
+<a href="/" class="alert-link">HOME</a>
+<h3>Search results...</h3>
+<div class="container">
+    <div class="row">
+        <hr>
+        {{ken.displayOtherNews(results)}}
+    </div>
+</div>
+{% endblock %}

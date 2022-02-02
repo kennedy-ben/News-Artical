@@ -11,7 +11,7 @@ def index():
     all_news_sources = get_all_news_sources()
     everything_news_items = get_everything_news()
     business_headliness = get_business_headlines()
-    title = "Giko"
+    title = "KIJIJI"
     search_article = request.args.get('article_query')
     if search_article:
         return redirect(url_for('.search', source_name = search_article))

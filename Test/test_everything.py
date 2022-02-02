@@ -54,14 +54,14 @@ class TestEverything(unittest.TestCase):
         This test case tests if self.everything_instance.url is initialized
         properly.
         """
-        self.assertEqual(self.everything_instance.url, "https://www.google.io/img/Africa")
+        self.assertEqual(self.everything_instance.url, "https://beyondthegrid.africa/wp-content/uploads/hero-xs-power-africa-copy.jpg"")
 
     def test_init_urlToImage(self):
         """
         This test case tests if self.everything_instance.urlToImage is initialized
         properly.
         """
-        self.assertEqual(self.everything_instance.urlToImage, "http://www.google.io/img/ugali")
+        self.assertEqual(self.everything_instance.urlToImage, "https://upload.wikimedia.org/wikipedia/commons/4/48/Ugali_%26_Sukuma_Wiki.jpg")
 
     def test_init_publishedAt(self):
         """
