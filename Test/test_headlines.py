@@ -68,7 +68,7 @@ class TestHeadlines(unittest.TestCase):
         This test case tests if self.news_headlines.publishedAt is initialized
         properly.
         """
-        self.assertEqual(self.news_headlines.publishedAt, "2000-19-03")
+        self.assertEqual(self.news_headlines.publishedAt, "2022-1-5")
 
 
 if __name__ == "__main__":

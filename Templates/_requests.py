@@ -51,7 +51,7 @@ def process_all_news_sources_data(sources_list):
     for item in sources_list:
         id = item.get('id')
         name = item.get('name')
-        url = item.get('url')
+        # url = item.get('url')
         country = item.get('country')
         description = item.get('description')
         new_source = Sources(id, name, url, country, description)
